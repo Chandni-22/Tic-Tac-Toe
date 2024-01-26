@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(background.jpeg);
+    text-align: center;
+}
+.head{
+    color: rgb(243, 202, 243);
+}
+h1{
+    margin-top: 1.5rem;
+    text-decoration: underline;
+}
+.box{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    /* grid-template-columns: repeat(3,1fr); */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmin;
+}
+.piece{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    font-size: 8vmin;
+    cursor: pointer;
+    color: rgb(243, 202, 243);
+    /* shadow and color for buttons */
+    border: 1px solid rgb(244, 3, 244);
+    box-shadow: 0 0 2rem rgb(242, 5, 242);
+}
+
+.bl{
+    border-left: 0;
+}
+.br{
+    border-right: 0;
+}
+.bt{
+    border-top: 0;
+}
+.bb{
+    border-bottom: 0;
+}
+
+#restart{
+    margin-top: 1.5rem;
+    height: 6vmin;
+    width: 15vmin;
+    border-radius: 0.5rem;
+    background-color: rgb(244, 3, 244);
+    color:#fff;
+    font-size: 3vmin;
+    box-shadow: 0 0 2rem rgb(242, 5, 242);
+}
+.text{
+    margin: 2rem;
+    font-size: 4vmin;
+}
+.hide{
+    display: none;
+}
+.hide-draw{
+    display: none;
+}
+
+#made{
+    text-align: right;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    color: rgb(146, 144, 144);    
+}
